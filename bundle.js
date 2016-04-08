@@ -11267,15 +11267,11 @@
 	            " ",
 	            _react2.default.createElement(
 	              "a",
-	              { href: issue.html_url },
+	              { href: issue.html_url, title: issue.body, alt: issue.body },
 	              " # ",
 	              issue.id || '',
 	              ": ",
-	              issue.title,
-	              " title=",
-	              issue.body,
-	              " alt=",
-	              issue.body
+	              issue.title
 	            )
 	          );
 	        });
