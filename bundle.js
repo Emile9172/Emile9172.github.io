@@ -11272,7 +11272,10 @@
 	              issue.id || '',
 	              ": ",
 	              issue.title,
-	              " "
+	              " title=",
+	              issue.body,
+	              " alt=",
+	              issue.body
 	            )
 	          );
 	        });
