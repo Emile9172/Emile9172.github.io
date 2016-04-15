@@ -11326,8 +11326,7 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                {
-	                  style: "margin-top: -12px; margin-left: 35px; background-color: red; border-radius: 50%;" },
+	                null,
 	                contributor.contributions
 	              )
 	            );
