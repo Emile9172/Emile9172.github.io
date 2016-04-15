@@ -11326,7 +11326,8 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                {
+	                  className: "{ contributor.contributions >= 10 ? contributions : contributionsPetit}" },
 	                contributor.contributions
 	              )
 	            );
