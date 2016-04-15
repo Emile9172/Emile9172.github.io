@@ -11326,7 +11326,8 @@
 	              ),
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                {
+	                  className: "contributions" },
 	                contributor.contributions
 	              )
 	            );
