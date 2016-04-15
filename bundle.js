@@ -11323,6 +11323,12 @@
 	                "a",
 	                { href: contributor.html_url },
 	                _react2.default.createElement("img", { height: "48px", width: "48px", src: contributor.avatar_url, alt: contributor.login })
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                {
+	                  style: "margin-top: -12px; margin-left: 35px; background-color: red; border-radius: 50%;" },
+	                contributor.contributions
 	              )
 	            );
 	          })
