@@ -11139,8 +11139,9 @@
 	  projectsSetter = function projectsSetter() {
 	    (0, _reqwest2.default)({
 	      url: queryString["server"] + "/projects",
-	      method: 'get',
+	      method: 'post',
 	      type: 'json',
+	      data: { "id": "jeremy" },
 	      success: function success(resp) {
 	        console.log(resp);
 	        freezer.get().set("projects", resp);
@@ -11180,8 +11181,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          state.title,
-	          '!!!'
+	          state.title
 	        ),
 	        _react2.default.createElement(_projectlist2.default, { projects: state.projects })
 	      );
