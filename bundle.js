@@ -46,9 +46,9 @@
 
 	'use strict';
 	
-	var _reactDom = __webpack_require__(100);
+	var _reactDom = __webpack_require__(99);
 	
-	var _react = __webpack_require__(34);
+	var _react = __webpack_require__(53);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -397,17 +397,17 @@
 	var ReactMarkupChecksum = __webpack_require__(73);
 	var ReactPerf = __webpack_require__(8);
 	var ReactReconciler = __webpack_require__(16);
-	var ReactUpdateQueue = __webpack_require__(41);
+	var ReactUpdateQueue = __webpack_require__(40);
 	var ReactUpdates = __webpack_require__(9);
 	
 	var assign = __webpack_require__(3);
 	var emptyObject = __webpack_require__(23);
 	var containsNode = __webpack_require__(85);
-	var instantiateReactComponent = __webpack_require__(48);
+	var instantiateReactComponent = __webpack_require__(47);
 	var invariant = __webpack_require__(2);
 	var setInnerHTML = __webpack_require__(32);
-	var shouldUpdateReactComponent = __webpack_require__(51);
-	var validateDOMNesting = __webpack_require__(53);
+	var shouldUpdateReactComponent = __webpack_require__(50);
+	var validateDOMNesting = __webpack_require__(52);
 	var warning = __webpack_require__(4);
 	
 	var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
@@ -1597,7 +1597,7 @@
 	
 	'use strict';
 	
-	var CallbackQueue = __webpack_require__(35);
+	var CallbackQueue = __webpack_require__(34);
 	var PooledClass = __webpack_require__(13);
 	var ReactPerf = __webpack_require__(8);
 	var ReactReconciler = __webpack_require__(16);
@@ -2406,7 +2406,7 @@
 	
 	'use strict';
 	
-	var ReactRef = __webpack_require__(133);
+	var ReactRef = __webpack_require__(132);
 	
 	/**
 	 * Helper to call ReactRef.attachRefs with this composite component, split out
@@ -3013,7 +3013,7 @@
 	'use strict';
 	
 	var EventPluginRegistry = __webpack_require__(58);
-	var EventPluginUtils = __webpack_require__(109);
+	var EventPluginUtils = __webpack_require__(108);
 	var ReactErrorUtils = __webpack_require__(71);
 	
 	var accumulateInto = __webpack_require__(80);
@@ -3493,7 +3493,7 @@
 	
 	var SyntheticEvent = __webpack_require__(17);
 	
-	var getEventTarget = __webpack_require__(46);
+	var getEventTarget = __webpack_require__(45);
 	
 	/**
 	 * @interface UIEvent
@@ -3733,12 +3733,12 @@
 	var EventConstants = __webpack_require__(11);
 	var EventPluginHub = __webpack_require__(19);
 	var EventPluginRegistry = __webpack_require__(58);
-	var ReactEventEmitterMixin = __webpack_require__(126);
+	var ReactEventEmitterMixin = __webpack_require__(125);
 	var ReactPerf = __webpack_require__(8);
 	var ViewportMetrics = __webpack_require__(79);
 	
 	var assign = __webpack_require__(3);
-	var isEventSupported = __webpack_require__(49);
+	var isEventSupported = __webpack_require__(48);
 	
 	/**
 	 * Summary of `ReactBrowserEventEmitter` event handling:
@@ -4119,7 +4119,7 @@
 	var SyntheticUIEvent = __webpack_require__(22);
 	var ViewportMetrics = __webpack_require__(79);
 	
-	var getEventModifierState = __webpack_require__(45);
+	var getEventModifierState = __webpack_require__(44);
 	
 	/**
 	 * @interface MouseEvent
@@ -4639,15 +4639,6 @@
 /* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
-	
-	module.exports = __webpack_require__(112);
-
-
-/***/ },
-/* 35 */
-/***/ function(module, exports, __webpack_require__) {
-
 	/* WEBPACK VAR INJECTION */(function(process) {/**
 	 * Copyright 2013-2015, Facebook, Inc.
 	 * All rights reserved.
@@ -4744,7 +4735,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 36 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -4764,7 +4755,7 @@
 	var DOMProperty = __webpack_require__(15);
 	var ReactPerf = __webpack_require__(8);
 	
-	var quoteAttributeValueForBrowser = __webpack_require__(156);
+	var quoteAttributeValueForBrowser = __webpack_require__(155);
 	var warning = __webpack_require__(4);
 	
 	// Simplified subset
@@ -4975,7 +4966,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 37 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5115,7 +5106,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 38 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -5131,7 +5122,7 @@
 	
 	'use strict';
 	
-	var ReactDOMIDOperations = __webpack_require__(40);
+	var ReactDOMIDOperations = __webpack_require__(39);
 	var ReactMount = __webpack_require__(6);
 	
 	/**
@@ -5161,7 +5152,7 @@
 	module.exports = ReactComponentBrowserEnvironment;
 
 /***/ },
-/* 39 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5218,7 +5209,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 40 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5236,7 +5227,7 @@
 	'use strict';
 	
 	var DOMChildrenOperations = __webpack_require__(57);
-	var DOMPropertyOperations = __webpack_require__(36);
+	var DOMPropertyOperations = __webpack_require__(35);
 	var ReactMount = __webpack_require__(6);
 	var ReactPerf = __webpack_require__(8);
 	
@@ -5318,7 +5309,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 41 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5581,7 +5572,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 42 */
+/* 41 */
 /***/ function(module, exports) {
 
 	/**
@@ -5600,7 +5591,7 @@
 	module.exports = '0.14.8';
 
 /***/ },
-/* 43 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5655,7 +5646,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 44 */
+/* 43 */
 /***/ function(module, exports) {
 
 	/**
@@ -5710,7 +5701,7 @@
 	module.exports = getEventCharCode;
 
 /***/ },
-/* 45 */
+/* 44 */
 /***/ function(module, exports) {
 
 	/**
@@ -5759,7 +5750,7 @@
 	module.exports = getEventModifierState;
 
 /***/ },
-/* 46 */
+/* 45 */
 /***/ function(module, exports) {
 
 	/**
@@ -5793,7 +5784,7 @@
 	module.exports = getEventTarget;
 
 /***/ },
-/* 47 */
+/* 46 */
 /***/ function(module, exports) {
 
 	/**
@@ -5838,7 +5829,7 @@
 	module.exports = getIteratorFn;
 
 /***/ },
-/* 48 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -5855,7 +5846,7 @@
 	
 	'use strict';
 	
-	var ReactCompositeComponent = __webpack_require__(115);
+	var ReactCompositeComponent = __webpack_require__(114);
 	var ReactEmptyComponent = __webpack_require__(69);
 	var ReactNativeComponent = __webpack_require__(75);
 	
@@ -5956,7 +5947,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 49 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -6021,7 +6012,7 @@
 	module.exports = isEventSupported;
 
 /***/ },
-/* 50 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -6066,7 +6057,7 @@
 	module.exports = setTextContent;
 
 /***/ },
-/* 51 */
+/* 50 */
 /***/ function(module, exports) {
 
 	/**
@@ -6114,7 +6105,7 @@
 	module.exports = shouldUpdateReactComponent;
 
 /***/ },
-/* 52 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6134,7 +6125,7 @@
 	var ReactElement = __webpack_require__(7);
 	var ReactInstanceHandles = __webpack_require__(18);
 	
-	var getIteratorFn = __webpack_require__(47);
+	var getIteratorFn = __webpack_require__(46);
 	var invariant = __webpack_require__(2);
 	var warning = __webpack_require__(4);
 	
@@ -6309,7 +6300,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 53 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -6676,6 +6667,15 @@
 	
 	module.exports = validateDOMNesting;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 53 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	module.exports = __webpack_require__(111);
+
 
 /***/ },
 /* 54 */
@@ -7109,12 +7109,12 @@
 	
 	'use strict';
 	
-	var Danger = __webpack_require__(106);
+	var Danger = __webpack_require__(105);
 	var ReactMultiChildUpdateTypes = __webpack_require__(74);
 	var ReactPerf = __webpack_require__(8);
 	
 	var setInnerHTML = __webpack_require__(32);
-	var setTextContent = __webpack_require__(50);
+	var setTextContent = __webpack_require__(49);
 	var invariant = __webpack_require__(2);
 	
 	/**
@@ -7473,7 +7473,7 @@
 	var ReactElement = __webpack_require__(7);
 	
 	var emptyFunction = __webpack_require__(10);
-	var traverseAllChildren = __webpack_require__(52);
+	var traverseAllChildren = __webpack_require__(51);
 	
 	var twoArgumentPooler = PooledClass.twoArgumentPooler;
 	var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -8571,10 +8571,10 @@
 	var ReactPerf = __webpack_require__(8);
 	var ReactReconciler = __webpack_require__(16);
 	var ReactUpdates = __webpack_require__(9);
-	var ReactVersion = __webpack_require__(42);
+	var ReactVersion = __webpack_require__(41);
 	
-	var findDOMNode = __webpack_require__(43);
-	var renderSubtreeIntoContainer = __webpack_require__(157);
+	var findDOMNode = __webpack_require__(42);
+	var renderSubtreeIntoContainer = __webpack_require__(156);
 	var warning = __webpack_require__(4);
 	
 	ReactDefaultInjection.inject();
@@ -8682,7 +8682,7 @@
 	
 	'use strict';
 	
-	var LinkedValueUtils = __webpack_require__(37);
+	var LinkedValueUtils = __webpack_require__(36);
 	var ReactMount = __webpack_require__(6);
 	var ReactUpdates = __webpack_require__(9);
 	
@@ -8878,14 +8878,14 @@
 	'use strict';
 	
 	var DOMChildrenOperations = __webpack_require__(57);
-	var DOMPropertyOperations = __webpack_require__(36);
-	var ReactComponentBrowserEnvironment = __webpack_require__(38);
+	var DOMPropertyOperations = __webpack_require__(35);
+	var ReactComponentBrowserEnvironment = __webpack_require__(37);
 	var ReactMount = __webpack_require__(6);
 	
 	var assign = __webpack_require__(3);
 	var escapeTextContentForBrowser = __webpack_require__(31);
-	var setTextContent = __webpack_require__(50);
-	var validateDOMNesting = __webpack_require__(53);
+	var setTextContent = __webpack_require__(49);
+	var validateDOMNesting = __webpack_require__(52);
 	
 	/**
 	 * Text nodes violate a couple assumptions that React makes about components:
@@ -9081,27 +9081,27 @@
 	
 	'use strict';
 	
-	var BeforeInputEventPlugin = __webpack_require__(102);
-	var ChangeEventPlugin = __webpack_require__(104);
-	var ClientReactRootIndex = __webpack_require__(105);
-	var DefaultEventPluginOrder = __webpack_require__(107);
-	var EnterLeaveEventPlugin = __webpack_require__(108);
+	var BeforeInputEventPlugin = __webpack_require__(101);
+	var ChangeEventPlugin = __webpack_require__(103);
+	var ClientReactRootIndex = __webpack_require__(104);
+	var DefaultEventPluginOrder = __webpack_require__(106);
+	var EnterLeaveEventPlugin = __webpack_require__(107);
 	var ExecutionEnvironment = __webpack_require__(5);
-	var HTMLDOMPropertyConfig = __webpack_require__(111);
-	var ReactBrowserComponentMixin = __webpack_require__(113);
-	var ReactComponentBrowserEnvironment = __webpack_require__(38);
+	var HTMLDOMPropertyConfig = __webpack_require__(110);
+	var ReactBrowserComponentMixin = __webpack_require__(112);
+	var ReactComponentBrowserEnvironment = __webpack_require__(37);
 	var ReactDefaultBatchingStrategy = __webpack_require__(66);
-	var ReactDOMComponent = __webpack_require__(117);
+	var ReactDOMComponent = __webpack_require__(116);
 	var ReactDOMTextComponent = __webpack_require__(65);
-	var ReactEventListener = __webpack_require__(127);
-	var ReactInjection = __webpack_require__(128);
+	var ReactEventListener = __webpack_require__(126);
+	var ReactInjection = __webpack_require__(127);
 	var ReactInstanceHandles = __webpack_require__(18);
 	var ReactMount = __webpack_require__(6);
-	var ReactReconcileTransaction = __webpack_require__(132);
-	var SelectEventPlugin = __webpack_require__(138);
-	var ServerReactRootIndex = __webpack_require__(139);
-	var SimpleEventPlugin = __webpack_require__(140);
-	var SVGDOMPropertyConfig = __webpack_require__(137);
+	var ReactReconcileTransaction = __webpack_require__(131);
+	var SelectEventPlugin = __webpack_require__(137);
+	var ServerReactRootIndex = __webpack_require__(138);
+	var SimpleEventPlugin = __webpack_require__(139);
+	var SVGDOMPropertyConfig = __webpack_require__(136);
 	
 	var alreadyInjected = false;
 	
@@ -9156,7 +9156,7 @@
 	  if (process.env.NODE_ENV !== 'production') {
 	    var url = ExecutionEnvironment.canUseDOM && window.location.href || '';
 	    if (/[?&]react_perf\b/.test(url)) {
-	      var ReactDefaultPerf = __webpack_require__(124);
+	      var ReactDefaultPerf = __webpack_require__(123);
 	      ReactDefaultPerf.start();
 	    }
 	  }
@@ -9197,7 +9197,7 @@
 	var ReactCurrentOwner = __webpack_require__(12);
 	
 	var canDefineProperty = __webpack_require__(30);
-	var getIteratorFn = __webpack_require__(47);
+	var getIteratorFn = __webpack_require__(46);
 	var invariant = __webpack_require__(2);
 	var warning = __webpack_require__(4);
 	
@@ -9667,7 +9667,7 @@
 	
 	'use strict';
 	
-	var ReactDOMSelection = __webpack_require__(121);
+	var ReactDOMSelection = __webpack_require__(120);
 	
 	var containsNode = __webpack_require__(85);
 	var focusNode = __webpack_require__(86);
@@ -9796,7 +9796,7 @@
 	
 	'use strict';
 	
-	var adler32 = __webpack_require__(149);
+	var adler32 = __webpack_require__(148);
 	
 	var TAG_END = /\/?>/;
 	
@@ -10111,7 +10111,7 @@
 	var ReactPropTypeLocationNames = __webpack_require__(26);
 	
 	var emptyFunction = __webpack_require__(10);
-	var getIteratorFn = __webpack_require__(47);
+	var getIteratorFn = __webpack_require__(46);
 	
 	/**
 	 * Collection of methods that allow declaration and validation of props that are
@@ -10807,7 +10807,7 @@
 	
 	'use strict';
 	
-	var isTextNode = __webpack_require__(166);
+	var isTextNode = __webpack_require__(165);
 	
 	/*eslint-disable no-bitwise */
 	
@@ -11088,31 +11088,31 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(34);
+	var _react = __webpack_require__(53);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _freezerJs = __webpack_require__(95);
+	var _freezerJs = __webpack_require__(94);
 	
 	var _freezerJs2 = _interopRequireDefault(_freezerJs);
 	
-	var _querystringparser = __webpack_require__(98);
+	var _querystringparser = __webpack_require__(97);
 	
 	var _querystringparser2 = _interopRequireDefault(_querystringparser);
 	
-	var _reqwest = __webpack_require__(172);
+	var _reqwest = __webpack_require__(171);
 	
 	var _reqwest2 = _interopRequireDefault(_reqwest);
 	
-	var _projectlist = __webpack_require__(92);
+	var _projectlist = __webpack_require__(91);
 	
 	var _projectlist2 = _interopRequireDefault(_projectlist);
 	
-	var _emptystate = __webpack_require__(93);
+	var _emptystate = __webpack_require__(92);
 	
 	var _emptystate2 = _interopRequireDefault(_emptystate);
 	
-	var _exampleprojectsdata = __webpack_require__(94);
+	var _exampleprojectsdata = __webpack_require__(93);
 	
 	var _exampleprojectsdata2 = _interopRequireDefault(_exampleprojectsdata);
 	
@@ -11197,161 +11197,6 @@
 /* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(34);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Project = function (_React$Component) {
-	  _inherits(Project, _React$Component);
-	
-	  function Project() {
-	    _classCallCheck(this, Project);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Project).apply(this, arguments));
-	  }
-	
-	  _createClass(Project, [{
-	    key: "render",
-	    value: function render() {
-	      var project = this.props.project;
-	      var contributors = project.contributors || [];
-	      var languages = project.languages || {};
-	      var openIssues = project.openIssues || project.open_issues || [];
-	
-	      var open_issues_count = project.openIssues ? project.openIssues.length : project["open_issues_count"];
-	
-	      var openIssuesCountSection = function (props) {
-	        var obj = { cn: "white bg-red", txt: "Could not retrieve issues" };
-	
-	        if (open_issues_count === 0) {
-	          obj = { cn: "white bg-green", txt: "0 issues" };
-	        } else if (open_issues_count === 1) {
-	          obj = { cn: "white bg-yellow", txt: "1 issue" };
-	        } else if (open_issues_count <= 3) {
-	          obj = { cn: "white bg-yellow", txt: open_issues_count + " issues" };
-	        } else if (open_issues_count > 3) {
-	          obj = { cn: "white bg-red", txt: open_issues_count + " issues" };
-	        }
-	
-	        return _react2.default.createElement(
-	          "a",
-	          { href: project.html_url + "/issues", className: obj.cn + " p2 rounded col-5" },
-	          obj.txt
-	        );
-	      }();
-	
-	      var openIssueSection = function (props) {
-	        if (open_issues_count === 0) {
-	          return "No open issue.";
-	        }
-	        return openIssues.map(function (issue) {
-	          return _react2.default.createElement(
-	            "div",
-	            null,
-	            " ",
-	            _react2.default.createElement(
-	              "a",
-	              { href: issue.html_url, title: issue.body, alt: issue.body },
-	              " # ",
-	              issue.id || '',
-	              ": ",
-	              issue.title
-	            )
-	          );
-	        });
-	      }();
-	
-	      return _react2.default.createElement(
-	        "div",
-	        { className: "sm-col-6 lg-col-4 border-box flex flex-stretch flex-wrap bg-dgray radius m2 ac-flex-start" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "col-12 border-bottom py1 px2" },
-	          _react2.default.createElement(
-	            "a",
-	            { className: "white", href: "https://github.com/" + project.name, target: "_blank" },
-	            project.name
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "col-12 flex p2 flex-jc-space-around" },
-	          openIssuesCountSection,
-	          _react2.default.createElement(
-	            "ul",
-	            { className: "col-5" },
-	            Object.keys(languages).map(function (k) {
-	              return _react2.default.createElement(
-	                "li",
-	                { key: k },
-	                k,
-	                ": ",
-	                languages[k]
-	              );
-	            })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "border-bottom" },
-	          "Contributors"
-	        ),
-	        _react2.default.createElement(
-	          "ul",
-	          { className: "col-12 list-style-none flex flex-wrap jc-space-between p0 m0" },
-	          contributors.map(function (contributor) {
-	            return _react2.default.createElement(
-	              "li",
-	              { className: "p2", key: contributor.login },
-	              _react2.default.createElement(
-	                "a",
-	                { href: contributor.html_url },
-	                _react2.default.createElement("img", { height: "48px", width: "48px", src: contributor.avatar_url, alt: contributor.login })
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                {
-	                  className: "contributions" },
-	                contributor.contributions
-	              )
-	            );
-	          })
-	        ),
-	        openIssueSection
-	      );
-	    }
-	  }]);
-	
-	  return Project;
-	}(_react2.default.Component);
-	
-	exports.default = Project;
-	
-	
-	Project.propTypes = {
-	  project: _react2.default.PropTypes.object.isRequired
-	};
-
-/***/ },
-/* 92 */
-/***/ function(module, exports, __webpack_require__) {
-
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
@@ -11360,11 +11205,11 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _react = __webpack_require__(34);
+	var _react = __webpack_require__(53);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _project = __webpack_require__(91);
+	var _project = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"components/project\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	var _project2 = _interopRequireDefault(_project);
 	
@@ -11412,7 +11257,7 @@
 	};
 
 /***/ },
-/* 93 */
+/* 92 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -11432,7 +11277,7 @@
 	};
 
 /***/ },
-/* 94 */
+/* 93 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -11443,14 +11288,14 @@
 	exports.default = [{ "name": "starter-kit-java", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 6 }], "languages": { "Java": 2871 }, "branches": [{ "name": "master", "commit": { "sha": "b91accfbb0d57364d8b6a14672bbeb167ae79d38", "url": "https://api.github.com/repos/glo2003/starter-kit-java/commits/b91accfbb0d57364d8b6a14672bbeb167ae79d38" } }], "openIssues": [], "badges": [], "id": "45078589", "html_url": "https://github.com/glo2003/starter-kit-java", "main_language": "Java", "open_issues_count": 0 }, { "name": "project-dashboard-frontend", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 21 }], "languages": { "JavaScript": 764598, "HTML": 1383, "Shell": 131, "CSS": 30 }, "branches": [{ "name": "gh-pages", "commit": { "sha": "0ab30f72d77e69d3a2dd3da06581c552b3695289", "url": "https://api.github.com/repos/glo2003/project-dashboard-frontend/commits/0ab30f72d77e69d3a2dd3da06581c552b3695289" } }, { "name": "master", "commit": { "sha": "52cda1ca7bf6cc9de1d074c13bd6871f622bf1a6", "url": "https://api.github.com/repos/glo2003/project-dashboard-frontend/commits/52cda1ca7bf6cc9de1d074c13bd6871f622bf1a6" } }], "openIssues": [], "badges": [], "id": "45621222", "html_url": "https://github.com/glo2003/project-dashboard-frontend", "main_language": "JavaScript", "open_issues_count": 0 }, { "name": "project-dashboard-backend-go", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 8 }], "languages": { "Go": 10582, "Shell": 766 }, "branches": [{ "name": "master", "commit": { "sha": "08c23fb7cff26e13aae84920ef76d253011d0681", "url": "https://api.github.com/repos/glo2003/project-dashboard-backend-go/commits/08c23fb7cff26e13aae84920ef76d253011d0681" } }], "openIssues": [], "badges": [], "id": "46298318", "html_url": "https://github.com/glo2003/project-dashboard-backend-go", "main_language": "Go", "open_issues_count": 0 }, { "name": "labs", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 29 }, { "login": "sihar21", "id": "7049109", "url": "https://api.github.com/users/sihar21", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/7049109?v=3", "html_url": "https://api.github.com/users/sihar21", "contributions": 6 }], "languages": { "JavaScript": 5354 }, "branches": [{ "name": "master", "commit": { "sha": "43dcb18d7eb914efa314d92e027828b12b2182ea", "url": "https://api.github.com/repos/glo2003/labs/commits/43dcb18d7eb914efa314d92e027828b12b2182ea" } }], "openIssues": [{ "id": "122283150", "title": "Labs preparation", "url": "https://api.github.com/repos/glo2003/labs/issues/1" }], "badges": [], "id": "46299715", "html_url": "https://github.com/glo2003/labs", "main_language": "JavaScript", "open_issues_count": 1 }, { "name": "starter-kit-go", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 2 }], "languages": { "Go": 5154 }, "branches": [{ "name": "master", "commit": { "sha": "9f2179c9dc71cf8358ace4aebf44606c9a527801", "url": "https://api.github.com/repos/glo2003/starter-kit-go/commits/9f2179c9dc71cf8358ace4aebf44606c9a527801" } }], "openIssues": [], "badges": [], "id": "49538613", "html_url": "https://github.com/glo2003/starter-kit-go", "main_language": "Go", "open_issues_count": 0 }, { "name": "team2", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "moana2", "id": "8680273", "url": "https://api.github.com/users/moana2", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/8680273?v=3", "html_url": "https://api.github.com/users/moana2", "contributions": 10 }], "languages": { "Java": 7273 }, "branches": [{ "name": "master", "commit": { "sha": "6ee44907a20aeb63382e03ca34c2fb1f78bce10a", "url": "https://api.github.com/repos/glo2003/team2/commits/6ee44907a20aeb63382e03ca34c2fb1f78bce10a" } }], "openIssues": [{ "id": "131759286", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team2/issues/8" }, { "id": "131759281", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team2/issues/7" }, { "id": "131759261", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team2/issues/6" }, { "id": "131759241", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team2/issues/5" }, { "id": "131759216", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team2/issues/4" }, { "id": "127058249", "title": "Show retrieved projects from github", "url": "https://api.github.com/repos/glo2003/team2/issues/3" }, { "id": "127058245", "title": "Retrieve projects from github", "url": "https://api.github.com/repos/glo2003/team2/issues/2" }, { "id": "127058242", "title": "Document what how to use your API", "url": "https://api.github.com/repos/glo2003/team2/issues/1" }], "badges": [], "id": "49744158", "html_url": "https://github.com/glo2003/team2", "main_language": "Java", "open_issues_count": 8 }, { "name": "team3", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "matvez93", "id": "16455482", "url": "https://api.github.com/users/matvez93", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16455482?v=3", "html_url": "https://api.github.com/users/matvez93", "contributions": 8 }, { "login": "bonnellyk", "id": "5897811", "url": "https://api.github.com/users/bonnellyk", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/5897811?v=3", "html_url": "https://api.github.com/users/bonnellyk", "contributions": 6 }, { "login": "Safa89", "id": "10535648", "url": "https://api.github.com/users/Safa89", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10535648?v=3", "html_url": "https://api.github.com/users/Safa89", "contributions": 5 }, { "login": "eilca973", "id": "16720484", "url": "https://api.github.com/users/eilca973", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16720484?v=3", "html_url": "https://api.github.com/users/eilca973", "contributions": 5 }], "languages": { "Java": 5296 }, "branches": [{ "name": "gh-pages", "commit": { "sha": "718fb0cc7b4c0772753aa6cf49ac9a9b2112383d", "url": "https://api.github.com/repos/glo2003/team3/commits/718fb0cc7b4c0772753aa6cf49ac9a9b2112383d" } }, { "name": "master", "commit": { "sha": "b3039c59ae9d4e1a28a614cff9611ee35130c0ee", "url": "https://api.github.com/repos/glo2003/team3/commits/b3039c59ae9d4e1a28a614cff9611ee35130c0ee" } }], "openIssues": [{ "id": "131759292", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team3/issues/8" }, { "id": "131759279", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team3/issues/7" }, { "id": "131759253", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team3/issues/5" }, { "id": "131759247", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team3/issues/6" }, { "id": "131759224", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team3/issues/4" }, { "id": "127058267", "title": "Show retrieved projects from github", "url": "https://api.github.com/repos/glo2003/team3/issues/3" }, { "id": "127058264", "title": "Retrieve projects from github", "url": "https://api.github.com/repos/glo2003/team3/issues/2" }], "badges": [], "id": "49744168", "html_url": "https://github.com/glo2003/team3", "main_language": "Java", "open_issues_count": 7 }, { "name": "team4", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "MALES281", "id": "16725514", "url": "https://api.github.com/users/MALES281", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725514?v=3", "html_url": "https://api.github.com/users/MALES281", "contributions": 25 }, { "login": "GabWarren", "id": "16725530", "url": "https://api.github.com/users/GabWarren", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725530?v=3", "html_url": "https://api.github.com/users/GabWarren", "contributions": 14 }, { "login": "macoo10", "id": "16688651", "url": "https://api.github.com/users/macoo10", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16688651?v=3", "html_url": "https://api.github.com/users/macoo10", "contributions": 13 }, { "login": "jesk8board", "id": "11841440", "url": "https://api.github.com/users/jesk8board", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/11841440?v=3", "html_url": "https://api.github.com/users/jesk8board", "contributions": 2 }], "languages": { "Java": 9685 }, "branches": [{ "name": "issues_response", "commit": { "sha": "568bb0bc7bbff4114101eb149409b1929ee18a7c", "url": "https://api.github.com/repos/glo2003/team4/commits/568bb0bc7bbff4114101eb149409b1929ee18a7c" } }, { "name": "master", "commit": { "sha": "568bb0bc7bbff4114101eb149409b1929ee18a7c", "url": "https://api.github.com/repos/glo2003/team4/commits/568bb0bc7bbff4114101eb149409b1929ee18a7c" } }], "openIssues": [{ "id": "131759278", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team4/issues/12" }, { "id": "131759257", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team4/issues/11" }, { "id": "131759221", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team4/issues/9" }, { "id": "131759218", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team4/issues/8" }], "badges": [], "id": "49744176", "html_url": "https://github.com/glo2003/team4", "main_language": "Java", "open_issues_count": 4 }, { "name": "team5", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "piclemx", "id": "14060997", "url": "https://api.github.com/users/piclemx", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/14060997?v=3", "html_url": "https://api.github.com/users/piclemx", "contributions": 36 }, { "login": "Carkib", "id": "10335220", "url": "https://api.github.com/users/Carkib", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10335220?v=3", "html_url": "https://api.github.com/users/Carkib", "contributions": 11 }, { "login": "guillaumebonneau94", "id": "16706222", "url": "https://api.github.com/users/guillaumebonneau94", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16706222?v=3", "html_url": "https://api.github.com/users/guillaumebonneau94", "contributions": 9 }, { "login": "vincentbeaudoin", "id": "16688864", "url": "https://api.github.com/users/vincentbeaudoin", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16688864?v=3", "html_url": "https://api.github.com/users/vincentbeaudoin", "contributions": 2 }], "languages": { "Java": 9877 }, "branches": [{ "name": "Carkib-patch-1", "commit": { "sha": "41bf8d6bb51c9b22b2313b00011dec5f7ab6c44e", "url": "https://api.github.com/repos/glo2003/team5/commits/41bf8d6bb51c9b22b2313b00011dec5f7ab6c44e" } }, { "name": "develop", "commit": { "sha": "0ea1927019428fea7c70ece610255c57bbfc8126", "url": "https://api.github.com/repos/glo2003/team5/commits/0ea1927019428fea7c70ece610255c57bbfc8126" } }, { "name": "master", "commit": { "sha": "9d0e9e132dbffb1006f70d12520ad3a071537663", "url": "https://api.github.com/repos/glo2003/team5/commits/9d0e9e132dbffb1006f70d12520ad3a071537663" } }, { "name": "remise-1", "commit": { "sha": "9d0e9e132dbffb1006f70d12520ad3a071537663", "url": "https://api.github.com/repos/glo2003/team5/commits/9d0e9e132dbffb1006f70d12520ad3a071537663" } }], "openIssues": [{ "id": "131759290", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team5/issues/14" }, { "id": "131759274", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team5/issues/13" }, { "id": "131759239", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team5/issues/10" }, { "id": "131759231", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team5/issues/11" }, { "id": "131759226", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team5/issues/12" }], "badges": [], "id": "49744182", "html_url": "https://github.com/glo2003/team5", "main_language": "Java", "open_issues_count": 5 }, { "name": "team6", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "Enteris", "id": "590605", "url": "https://api.github.com/users/Enteris", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/590605?v=3", "html_url": "https://api.github.com/users/Enteris", "contributions": 24 }, { "login": "JBHarvey", "id": "7445487", "url": "https://api.github.com/users/JBHarvey", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/7445487?v=3", "html_url": "https://api.github.com/users/JBHarvey", "contributions": 22 }, { "login": "VincEmond", "id": "16672579", "url": "https://api.github.com/users/VincEmond", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16672579?v=3", "html_url": "https://api.github.com/users/VincEmond", "contributions": 22 }, { "login": "samcarpentier", "id": "16725540", "url": "https://api.github.com/users/samcarpentier", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725540?v=3", "html_url": "https://api.github.com/users/samcarpentier", "contributions": 8 }], "languages": { "Java": 13714, "TeX": 13240 }, "branches": [{ "name": "master", "commit": { "sha": "2b104daf571c2fc39dd4574bd315a1a1cc1a02a5", "url": "https://api.github.com/repos/glo2003/team6/commits/2b104daf571c2fc39dd4574bd315a1a1cc1a02a5" } }], "openIssues": [{ "id": "131759213", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team6/issues/5" }], "badges": [], "id": "49744910", "html_url": "https://github.com/glo2003/team6", "main_language": "Java", "open_issues_count": 1 }, { "name": "team7", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "nebble", "id": "5469697", "url": "https://api.github.com/users/nebble", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/5469697?v=3", "html_url": "https://api.github.com/users/nebble", "contributions": 21 }, { "login": "VampiricRambo", "id": "6415014", "url": "https://api.github.com/users/VampiricRambo", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/6415014?v=3", "html_url": "https://api.github.com/users/VampiricRambo", "contributions": 17 }, { "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 2 }, { "login": "eltru7", "id": "14112309", "url": "https://api.github.com/users/eltru7", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/14112309?v=3", "html_url": "https://api.github.com/users/eltru7", "contributions": 1 }], "languages": { "Go": 9078 }, "branches": [{ "name": "feature/API_issues", "commit": { "sha": "d5d1f305ce956773f20f397fa192e57a618404b0", "url": "https://api.github.com/repos/glo2003/team7/commits/d5d1f305ce956773f20f397fa192e57a618404b0" } }, { "name": "feature/travis", "commit": { "sha": "f2379e4736a7e6ebc6dc6eef30d3dea0a446dae8", "url": "https://api.github.com/repos/glo2003/team7/commits/f2379e4736a7e6ebc6dc6eef30d3dea0a446dae8" } }, { "name": "master", "commit": { "sha": "d5d1f305ce956773f20f397fa192e57a618404b0", "url": "https://api.github.com/repos/glo2003/team7/commits/d5d1f305ce956773f20f397fa192e57a618404b0" } }], "openIssues": [{ "id": "131767194", "title": "Feature/travis", "url": "https://api.github.com/repos/glo2003/team7/issues/25" }, { "id": "131759264", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team7/issues/23" }, { "id": "131759259", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team7/issues/22" }, { "id": "131759258", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team7/issues/24" }, { "id": "131759232", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team7/issues/21" }, { "id": "131759229", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team7/issues/20" }, { "id": "129887827", "title": "Change hardcoded PORT value to an environment variable", "url": "https://api.github.com/repos/glo2003/team7/issues/11" }], "badges": [], "id": "49745019", "html_url": "https://github.com/glo2003/team7", "main_language": "Go", "open_issues_count": 7 }, { "name": "team8", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "EducatedTard", "id": "7775003", "url": "https://api.github.com/users/EducatedTard", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/7775003?v=3", "html_url": "https://api.github.com/users/EducatedTard", "contributions": 17 }, { "login": "washburn94", "id": "9271409", "url": "https://api.github.com/users/washburn94", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/9271409?v=3", "html_url": "https://api.github.com/users/washburn94", "contributions": 14 }, { "login": "aslight21", "id": "16725522", "url": "https://api.github.com/users/aslight21", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725522?v=3", "html_url": "https://api.github.com/users/aslight21", "contributions": 11 }, { "login": "nasim80", "id": "14095719", "url": "https://api.github.com/users/nasim80", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/14095719?v=3", "html_url": "https://api.github.com/users/nasim80", "contributions": 7 }], "languages": { "Go": 7274 }, "branches": [{ "name": "Travis_test", "commit": { "sha": "5a67ad84db8aa2d64c754adbf0526bffe3904ad7", "url": "https://api.github.com/repos/glo2003/team8/commits/5a67ad84db8aa2d64c754adbf0526bffe3904ad7" } }, { "name": "api_issues_list", "commit": { "sha": "bc6d29c58dbff769905b5feccad37db95351f51a", "url": "https://api.github.com/repos/glo2003/team8/commits/bc6d29c58dbff769905b5feccad37db95351f51a" } }, { "name": "dependencies", "commit": { "sha": "5f71f47dc8d23aa88cd2f7f897bee6d0ec2d66a9", "url": "https://api.github.com/repos/glo2003/team8/commits/5f71f47dc8d23aa88cd2f7f897bee6d0ec2d66a9" } }, { "name": "master", "commit": { "sha": "4f1d3706512b9d7462d37c3d29043aa0f6c79652", "url": "https://api.github.com/repos/glo2003/team8/commits/4f1d3706512b9d7462d37c3d29043aa0f6c79652" } }], "openIssues": [{ "id": "131759280", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team8/issues/16" }, { "id": "131759249", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team8/issues/14" }, { "id": "131759223", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team8/issues/13" }], "badges": [], "id": "49745035", "html_url": "https://github.com/glo2003/team8", "main_language": "Go", "open_issues_count": 3 }, { "name": "team9", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "luiseduardo1", "id": "8940988", "url": "https://api.github.com/users/luiseduardo1", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/8940988?v=3", "html_url": "https://api.github.com/users/luiseduardo1", "contributions": 42 }, { "login": "marcelbernic", "id": "16092415", "url": "https://api.github.com/users/marcelbernic", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16092415?v=3", "html_url": "https://api.github.com/users/marcelbernic", "contributions": 6 }, { "login": "esmamouine", "id": "16725554", "url": "https://api.github.com/users/esmamouine", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725554?v=3", "html_url": "https://api.github.com/users/esmamouine", "contributions": 4 }, { "login": "MedAziz1", "id": "10536423", "url": "https://api.github.com/users/MedAziz1", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10536423?v=3", "html_url": "https://api.github.com/users/MedAziz1", "contributions": 3 }], "languages": { "Python": 2535 }, "branches": [{ "name": "master", "commit": { "sha": "abca687291ab19ead7fc438452145c7cae20ea34", "url": "https://api.github.com/repos/glo2003/team9/commits/abca687291ab19ead7fc438452145c7cae20ea34" } }], "openIssues": [{ "id": "131759276", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team9/issues/9" }, { "id": "131759275", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team9/issues/8" }, { "id": "131759251", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team9/issues/7" }, { "id": "131759238", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team9/issues/5" }, { "id": "131759233", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team9/issues/6" }], "badges": [], "id": "49745042", "html_url": "https://github.com/glo2003/team9", "main_language": "Python", "open_issues_count": 5 }, { "name": "team10", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "Witrix", "id": "12197469", "url": "https://api.github.com/users/Witrix", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/12197469?v=3", "html_url": "https://api.github.com/users/Witrix", "contributions": 17 }, { "login": "Silmariene", "id": "11244225", "url": "https://api.github.com/users/Silmariene", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/11244225?v=3", "html_url": "https://api.github.com/users/Silmariene", "contributions": 3 }], "languages": { "Go": 12995, "HTML": 2402 }, "branches": [{ "name": "api", "commit": { "sha": "f9a322fb798a31215077c8ade3c1d6c13525fae8", "url": "https://api.github.com/repos/glo2003/team10/commits/f9a322fb798a31215077c8ade3c1d6c13525fae8" } }, { "name": "application", "commit": { "sha": "2c0b67fb1a09cb52b724b880c46d26848aa87cd9", "url": "https://api.github.com/repos/glo2003/team10/commits/2c0b67fb1a09cb52b724b880c46d26848aa87cd9" } }, { "name": "master", "commit": { "sha": "102276c7ecceeaca736788d25b65cd6ffce72c91", "url": "https://api.github.com/repos/glo2003/team10/commits/102276c7ecceeaca736788d25b65cd6ffce72c91" } }], "openIssues": [{ "id": "131759266", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team10/issues/8" }, { "id": "131759230", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team10/issues/5" }, { "id": "131759225", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team10/issues/4" }], "badges": [], "id": "49745044", "html_url": "https://github.com/glo2003/team10", "main_language": "Go", "open_issues_count": 3 }, { "name": "team11", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "Maxdf", "id": "16721939", "url": "https://api.github.com/users/Maxdf", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16721939?v=3", "html_url": "https://api.github.com/users/Maxdf", "contributions": 10 }, { "login": "vadoche", "id": "9080002", "url": "https://api.github.com/users/vadoche", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/9080002?v=3", "html_url": "https://api.github.com/users/vadoche", "contributions": 6 }, { "login": "altrem", "id": "16455346", "url": "https://api.github.com/users/altrem", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16455346?v=3", "html_url": "https://api.github.com/users/altrem", "contributions": 3 }], "languages": { "Shell": 12462, "Batchfile": 7360, "HTML": 6303, "Java": 5281, "JavaScript": 5252, "CSS": 3780 }, "branches": [{ "name": "Alexandre", "commit": { "sha": "d49b2a29f1518e61f4f7961a10b6dc628d0d6914", "url": "https://api.github.com/repos/glo2003/team11/commits/d49b2a29f1518e61f4f7961a10b6dc628d0d6914" } }, { "name": "Vadim", "commit": { "sha": "5a2f90d97969ffb6f847e8d476b1c7d91ac57b76", "url": "https://api.github.com/repos/glo2003/team11/commits/5a2f90d97969ffb6f847e8d476b1c7d91ac57b76" } }, { "name": "master", "commit": { "sha": "5a2f90d97969ffb6f847e8d476b1c7d91ac57b76", "url": "https://api.github.com/repos/glo2003/team11/commits/5a2f90d97969ffb6f847e8d476b1c7d91ac57b76" } }], "openIssues": [{ "id": "131759294", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team11/issues/10" }, { "id": "131759293", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team11/issues/9" }, { "id": "131759269", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team11/issues/8" }, { "id": "131759262", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team11/issues/7" }, { "id": "131759245", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team11/issues/6" }, { "id": "127058265", "title": "Show retrieved projects from github", "url": "https://api.github.com/repos/glo2003/team11/issues/3" }, { "id": "127058257", "title": "Document what how to use your API", "url": "https://api.github.com/repos/glo2003/team11/issues/2" }, { "id": "127058238", "title": "Retrieve projects from github", "url": "https://api.github.com/repos/glo2003/team11/issues/1" }], "badges": [], "id": "49745056", "html_url": "https://github.com/glo2003/team11", "main_language": "Shell", "open_issues_count": 8 }, { "name": "team12", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "AntoineGagne", "id": "6211479", "url": "https://api.github.com/users/AntoineGagne", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/6211479?v=3", "html_url": "https://api.github.com/users/AntoineGagne", "contributions": 12 }, { "login": "ianlet", "id": "6018732", "url": "https://api.github.com/users/ianlet", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/6018732?v=3", "html_url": "https://api.github.com/users/ianlet", "contributions": 10 }, { "login": "ShadowJP88", "id": "16725529", "url": "https://api.github.com/users/ShadowJP88", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16725529?v=3", "html_url": "https://api.github.com/users/ShadowJP88", "contributions": 3 }, { "login": "jorstem", "id": "9054699", "url": "https://api.github.com/users/jorstem", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/9054699?v=3", "html_url": "https://api.github.com/users/jorstem", "contributions": 2 }], "languages": { "Java": 10182 }, "branches": [{ "name": "feature/add_unit_tests", "commit": { "sha": "93c32dfb92c33e7fc8da35d19766e4c51f2a6d62", "url": "https://api.github.com/repos/glo2003/team12/commits/93c32dfb92c33e7fc8da35d19766e4c51f2a6d62" } }, { "name": "feature/issues", "commit": { "sha": "f99559e11eaec41a16de1b114cab5ac8bdba9d1c", "url": "https://api.github.com/repos/glo2003/team12/commits/f99559e11eaec41a16de1b114cab5ac8bdba9d1c" } }, { "name": "master", "commit": { "sha": "151ad70a3c5b5f063e07195f33cbf1a91c1c3801", "url": "https://api.github.com/repos/glo2003/team12/commits/151ad70a3c5b5f063e07195f33cbf1a91c1c3801" } }], "openIssues": [{ "id": "131887334", "title": "Adds Mockito to the testing dependencies", "url": "https://api.github.com/repos/glo2003/team12/issues/13" }, { "id": "131886979", "title": "Feature/issues", "url": "https://api.github.com/repos/glo2003/team12/issues/12" }, { "id": "131759272", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team12/issues/10" }, { "id": "131759214", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team12/issues/6" }], "badges": [], "id": "49745058", "html_url": "https://github.com/glo2003/team12", "main_language": "Java", "open_issues_count": 4 }, { "name": "team13", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "sodominic", "id": "10509659", "url": "https://api.github.com/users/sodominic", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10509659?v=3", "html_url": "https://api.github.com/users/sodominic", "contributions": 26 }, { "login": "bishop-CA", "id": "10517116", "url": "https://api.github.com/users/bishop-CA", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10517116?v=3", "html_url": "https://api.github.com/users/bishop-CA", "contributions": 12 }, { "login": "LucLangevin", "id": "16805187", "url": "https://api.github.com/users/LucLangevin", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16805187?v=3", "html_url": "https://api.github.com/users/LucLangevin", "contributions": 4 }, { "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 3 }], "languages": { "Java": 13743 }, "branches": [{ "name": "master", "commit": { "sha": "1b770ad15e02affc959bed850c4351b6e4fca701", "url": "https://api.github.com/repos/glo2003/team13/commits/1b770ad15e02affc959bed850c4351b6e4fca701" } }], "openIssues": [{ "id": "131759236", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team13/issues/6" }, { "id": "131759234", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team13/issues/5" }, { "id": "131759215", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team13/issues/4" }], "badges": [], "id": "49745062", "html_url": "https://github.com/glo2003/team13", "main_language": "Java", "open_issues_count": 3 }, { "name": "team14", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "JPTherrien08", "id": "16741067", "url": "https://api.github.com/users/JPTherrien08", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16741067?v=3", "html_url": "https://api.github.com/users/JPTherrien08", "contributions": 11 }, { "login": "Gab11", "id": "9417915", "url": "https://api.github.com/users/Gab11", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/9417915?v=3", "html_url": "https://api.github.com/users/Gab11", "contributions": 4 }], "languages": { "Java": 9760 }, "branches": [{ "name": "Patricia", "commit": { "sha": "2a875c36955ff898bb4d3c409d5d6b4e993acee7", "url": "https://api.github.com/repos/glo2003/team14/commits/2a875c36955ff898bb4d3c409d5d6b4e993acee7" } }, { "name": "infos", "commit": { "sha": "efa4f631f6e2105ca4e668fa95b205c6453a3717", "url": "https://api.github.com/repos/glo2003/team14/commits/efa4f631f6e2105ca4e668fa95b205c6453a3717" } }, { "name": "jeanphilippe", "commit": { "sha": "ae9ac33fdca50eaefdcc6022dc9d5c1f10ce0aa9", "url": "https://api.github.com/repos/glo2003/team14/commits/ae9ac33fdca50eaefdcc6022dc9d5c1f10ce0aa9" } }, { "name": "master", "commit": { "sha": "0d12f300d89b7f43676e2351cacf714762927458", "url": "https://api.github.com/repos/glo2003/team14/commits/0d12f300d89b7f43676e2351cacf714762927458" } }, { "name": "testing", "commit": { "sha": "be454fa8ab47070c87e6a58749de5a7b8bfbebc2", "url": "https://api.github.com/repos/glo2003/team14/commits/be454fa8ab47070c87e6a58749de5a7b8bfbebc2" } }, { "name": "testing2", "commit": { "sha": "fbd7a9c664928d69b5c0d99110a743f24a9e99b1", "url": "https://api.github.com/repos/glo2003/team14/commits/fbd7a9c664928d69b5c0d99110a743f24a9e99b1" } }], "openIssues": [{ "id": "131759287", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team14/issues/8" }, { "id": "131759270", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team14/issues/7" }, { "id": "131759248", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team14/issues/6" }, { "id": "131759235", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team14/issues/5" }, { "id": "131759222", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team14/issues/4" }], "badges": [], "id": "49745066", "html_url": "https://github.com/glo2003/team14", "main_language": "Java", "open_issues_count": 5 }, { "name": "team15", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "emson1", "id": "14339218", "url": "https://api.github.com/users/emson1", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/14339218?v=3", "html_url": "https://api.github.com/users/emson1", "contributions": 17 }, { "login": "nicolascotton", "id": "14332474", "url": "https://api.github.com/users/nicolascotton", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/14332474?v=3", "html_url": "https://api.github.com/users/nicolascotton", "contributions": 6 }, { "login": "Kirmie", "id": "4592635", "url": "https://api.github.com/users/Kirmie", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/4592635?v=3", "html_url": "https://api.github.com/users/Kirmie", "contributions": 4 }, { "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 3 }, { "login": "kedzilla", "id": "7153782", "url": "https://api.github.com/users/kedzilla", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/7153782?v=3", "html_url": "https://api.github.com/users/kedzilla", "contributions": 3 }], "languages": { "Java": 9770 }, "branches": [{ "name": "issue9", "commit": { "sha": "d434a8e8faa5c810676664ba5e72e98e2c44f5e6", "url": "https://api.github.com/repos/glo2003/team15/commits/d434a8e8faa5c810676664ba5e72e98e2c44f5e6" } }, { "name": "master", "commit": { "sha": "fd830354e4ec1d0eb583f2147d8d0f638e8a5973", "url": "https://api.github.com/repos/glo2003/team15/commits/fd830354e4ec1d0eb583f2147d8d0f638e8a5973" } }], "openIssues": [{ "id": "131759283", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team15/issues/11" }, { "id": "131759273", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team15/issues/10" }, { "id": "131759227", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team15/issues/8" }], "badges": [], "id": "49745074", "html_url": "https://github.com/glo2003/team15", "main_language": "Java", "open_issues_count": 3 }, { "name": "team17", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "HypnoOwl", "id": "7094820", "url": "https://api.github.com/users/HypnoOwl", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/7094820?v=3", "html_url": "https://api.github.com/users/HypnoOwl", "contributions": 12 }], "languages": { "Java": 5671 }, "branches": [{ "name": "master", "commit": { "sha": "9ba5a57176e2049bd6bac7ffd3eb3a50ee4c1f6b", "url": "https://api.github.com/repos/glo2003/team17/commits/9ba5a57176e2049bd6bac7ffd3eb3a50ee4c1f6b" } }], "openIssues": [{ "id": "131759277", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team17/issues/8" }, { "id": "131759263", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team17/issues/7" }, { "id": "131759255", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team17/issues/6" }, { "id": "131759250", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team17/issues/5" }, { "id": "131759246", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team17/issues/4" }], "badges": [], "id": "49745086", "html_url": "https://github.com/glo2003/team17", "main_language": "Java", "open_issues_count": 5 }, { "name": "team1", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "maximecharron", "id": "8813062", "url": "https://api.github.com/users/maximecharron", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/8813062?v=3", "html_url": "https://api.github.com/users/maximecharron", "contributions": 22 }, { "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 6 }, { "login": "provenchez", "id": "12944429", "url": "https://api.github.com/users/provenchez", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/12944429?v=3", "html_url": "https://api.github.com/users/provenchez", "contributions": 3 }, { "login": "maxcaron", "id": "10531883", "url": "https://api.github.com/users/maxcaron", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/10531883?v=3", "html_url": "https://api.github.com/users/maxcaron", "contributions": 1 }], "languages": { "Java": 11732, "HTML": 5008, "JavaScript": 2523, "CSS": 191 }, "branches": [{ "name": "Issue_make_dummy_test", "commit": { "sha": "df70f80e62985d55c80d0da243ec40d2dd47e534", "url": "https://api.github.com/repos/glo2003/team1/commits/df70f80e62985d55c80d0da243ec40d2dd47e534" } }, { "name": "dev", "commit": { "sha": "66444050b70cf4cc9f98a34d2c3434bd0d758dea", "url": "https://api.github.com/repos/glo2003/team1/commits/66444050b70cf4cc9f98a34d2c3434bd0d758dea" } }, { "name": "master", "commit": { "sha": "249f36f37e1c7fe75a931de0918b03b78ef5af06", "url": "https://api.github.com/repos/glo2003/team1/commits/249f36f37e1c7fe75a931de0918b03b78ef5af06" } }], "openIssues": [{ "id": "131758967", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team1/issues/16" }, { "id": "131758965", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team1/issues/14" }, { "id": "131758964", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team1/issues/13" }, { "id": "131758963", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team1/issues/12" }], "badges": [], "id": "49834489", "html_url": "https://github.com/glo2003/team1", "main_language": "Java", "open_issues_count": 4 }, { "name": "team16", "lastCommit": "", "ciStatus": "", "contributors": [{ "login": "jeremyrea", "id": "5186556", "url": "https://api.github.com/users/jeremyrea", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/5186556?v=3", "html_url": "https://api.github.com/users/jeremyrea", "contributions": 49 }, { "login": "tawer", "id": "3976896", "url": "https://api.github.com/users/tawer", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/3976896?v=3", "html_url": "https://api.github.com/users/tawer", "contributions": 11 }, { "login": "Emile9172", "id": "16691321", "url": "https://api.github.com/users/Emile9172", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/16691321?v=3", "html_url": "https://api.github.com/users/Emile9172", "contributions": 7 }, { "login": "pastjean", "id": "140675", "url": "https://api.github.com/users/pastjean", "type": "User", "avatar_url": "https://avatars.githubusercontent.com/u/140675?v=3", "html_url": "https://api.github.com/users/pastjean", "contributions": 6 }], "languages": { "Java": 6637 }, "branches": [{ "name": "master", "commit": { "sha": "34e463d6c6466ed9da2cdafd7891aab32d74efd3", "url": "https://api.github.com/repos/glo2003/team16/commits/34e463d6c6466ed9da2cdafd7891aab32d74efd3" } }], "openIssues": [{ "id": "131759285", "title": "Document what is continuous integration", "url": "https://api.github.com/repos/glo2003/team16/issues/10" }, { "id": "131759284", "title": "Make a dummy unit-test", "url": "https://api.github.com/repos/glo2003/team16/issues/9" }, { "id": "131759268", "title": "Must work in ui", "url": "https://api.github.com/repos/glo2003/team16/issues/8" }, { "id": "131759267", "title": "Make it build on travis-ci", "url": "https://api.github.com/repos/glo2003/team16/issues/7" }, { "id": "131759244", "title": "Add in API an open issues list", "url": "https://api.github.com/repos/glo2003/team16/issues/6" }], "badges": [], "id": "50207985", "html_url": "https://github.com/glo2003/team16", "main_language": "Java", "open_issues_count": 5 }];
 
 /***/ },
-/* 95 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Freezer = __webpack_require__(96);
+	var Freezer = __webpack_require__(95);
 	module.exports = Freezer;
 
 /***/ },
-/* 96 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11458,7 +11303,7 @@
 	var Utils = __webpack_require__( 24 ),
 		Emitter = __webpack_require__( 54 ),
 		Mixins = __webpack_require__( 55 ),
-		Frozen = __webpack_require__( 97 )
+		Frozen = __webpack_require__( 96 )
 	;
 	
 	//#build
@@ -11595,7 +11440,7 @@
 
 
 /***/ },
-/* 97 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12146,7 +11991,7 @@
 
 
 /***/ },
-/* 98 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12171,7 +12016,7 @@
 	 * THE SOFTWARE.
 	 */
 	"use strict";
-	var QueryStringSerializer = __webpack_require__(99);
+	var QueryStringSerializer = __webpack_require__(98);
 	module.exports = QueryStringParser;
 	
 	var rplus = /\+/g;
@@ -12558,7 +12403,7 @@
 
 
 /***/ },
-/* 99 */
+/* 98 */
 /***/ function(module, exports) {
 
 	/**
@@ -12669,7 +12514,7 @@
 
 
 /***/ },
-/* 100 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12678,7 +12523,7 @@
 
 
 /***/ },
-/* 101 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12697,7 +12542,7 @@
 	
 	var ReactMount = __webpack_require__(6);
 	
-	var findDOMNode = __webpack_require__(43);
+	var findDOMNode = __webpack_require__(42);
 	var focusNode = __webpack_require__(86);
 	
 	var Mixin = {
@@ -12719,7 +12564,7 @@
 	module.exports = AutoFocusUtils;
 
 /***/ },
-/* 102 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -12739,9 +12584,9 @@
 	var EventConstants = __webpack_require__(11);
 	var EventPropagators = __webpack_require__(20);
 	var ExecutionEnvironment = __webpack_require__(5);
-	var FallbackCompositionState = __webpack_require__(110);
-	var SyntheticCompositionEvent = __webpack_require__(142);
-	var SyntheticInputEvent = __webpack_require__(145);
+	var FallbackCompositionState = __webpack_require__(109);
+	var SyntheticCompositionEvent = __webpack_require__(141);
+	var SyntheticInputEvent = __webpack_require__(144);
 	
 	var keyOf = __webpack_require__(14);
 	
@@ -13129,7 +12974,7 @@
 	module.exports = BeforeInputEventPlugin;
 
 /***/ },
-/* 103 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13150,10 +12995,10 @@
 	var ExecutionEnvironment = __webpack_require__(5);
 	var ReactPerf = __webpack_require__(8);
 	
-	var camelizeStyleName = __webpack_require__(159);
-	var dangerousStyleValue = __webpack_require__(150);
-	var hyphenateStyleName = __webpack_require__(164);
-	var memoizeStringOnly = __webpack_require__(168);
+	var camelizeStyleName = __webpack_require__(158);
+	var dangerousStyleValue = __webpack_require__(149);
+	var hyphenateStyleName = __webpack_require__(163);
+	var memoizeStringOnly = __webpack_require__(167);
 	var warning = __webpack_require__(4);
 	
 	var processStyleName = memoizeStringOnly(function (styleName) {
@@ -13310,7 +13155,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 104 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13333,8 +13178,8 @@
 	var ReactUpdates = __webpack_require__(9);
 	var SyntheticEvent = __webpack_require__(17);
 	
-	var getEventTarget = __webpack_require__(46);
-	var isEventSupported = __webpack_require__(49);
+	var getEventTarget = __webpack_require__(45);
+	var isEventSupported = __webpack_require__(48);
 	var isTextInputElement = __webpack_require__(83);
 	var keyOf = __webpack_require__(14);
 	
@@ -13636,7 +13481,7 @@
 	module.exports = ChangeEventPlugin;
 
 /***/ },
-/* 105 */
+/* 104 */
 /***/ function(module, exports) {
 
 	/**
@@ -13664,7 +13509,7 @@
 	module.exports = ClientReactRootIndex;
 
 /***/ },
-/* 106 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13683,7 +13528,7 @@
 	
 	var ExecutionEnvironment = __webpack_require__(5);
 	
-	var createNodesFromMarkup = __webpack_require__(161);
+	var createNodesFromMarkup = __webpack_require__(160);
 	var emptyFunction = __webpack_require__(10);
 	var getMarkupWrap = __webpack_require__(88);
 	var invariant = __webpack_require__(2);
@@ -13815,7 +13660,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 107 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13847,7 +13692,7 @@
 	module.exports = DefaultEventPluginOrder;
 
 /***/ },
-/* 108 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13976,7 +13821,7 @@
 	module.exports = EnterLeaveEventPlugin;
 
 /***/ },
-/* 109 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14184,7 +14029,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 110 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14284,7 +14129,7 @@
 	module.exports = FallbackCompositionState;
 
 /***/ },
-/* 111 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14519,7 +14364,7 @@
 	module.exports = HTMLDOMPropertyConfig;
 
 /***/ },
-/* 112 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -14536,11 +14381,11 @@
 	'use strict';
 	
 	var ReactDOM = __webpack_require__(62);
-	var ReactDOMServer = __webpack_require__(122);
-	var ReactIsomorphic = __webpack_require__(129);
+	var ReactDOMServer = __webpack_require__(121);
+	var ReactIsomorphic = __webpack_require__(128);
 	
 	var assign = __webpack_require__(3);
-	var deprecated = __webpack_require__(151);
+	var deprecated = __webpack_require__(150);
 	
 	// `version` will be added here by ReactIsomorphic.
 	var React = {};
@@ -14564,7 +14409,7 @@
 	module.exports = React;
 
 /***/ },
-/* 113 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14582,7 +14427,7 @@
 	
 	var ReactInstanceMap = __webpack_require__(21);
 	
-	var findDOMNode = __webpack_require__(43);
+	var findDOMNode = __webpack_require__(42);
 	var warning = __webpack_require__(4);
 	
 	var didWarnKey = '_getDOMNodeDidWarn';
@@ -14606,7 +14451,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 114 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14625,9 +14470,9 @@
 	
 	var ReactReconciler = __webpack_require__(16);
 	
-	var instantiateReactComponent = __webpack_require__(48);
-	var shouldUpdateReactComponent = __webpack_require__(51);
-	var traverseAllChildren = __webpack_require__(52);
+	var instantiateReactComponent = __webpack_require__(47);
+	var shouldUpdateReactComponent = __webpack_require__(50);
+	var traverseAllChildren = __webpack_require__(51);
 	var warning = __webpack_require__(4);
 	
 	function instantiateChild(childInstances, child, name) {
@@ -14734,7 +14579,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 115 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -14750,7 +14595,7 @@
 	
 	'use strict';
 	
-	var ReactComponentEnvironment = __webpack_require__(39);
+	var ReactComponentEnvironment = __webpack_require__(38);
 	var ReactCurrentOwner = __webpack_require__(12);
 	var ReactElement = __webpack_require__(7);
 	var ReactInstanceMap = __webpack_require__(21);
@@ -14758,12 +14603,12 @@
 	var ReactPropTypeLocations = __webpack_require__(27);
 	var ReactPropTypeLocationNames = __webpack_require__(26);
 	var ReactReconciler = __webpack_require__(16);
-	var ReactUpdateQueue = __webpack_require__(41);
+	var ReactUpdateQueue = __webpack_require__(40);
 	
 	var assign = __webpack_require__(3);
 	var emptyObject = __webpack_require__(23);
 	var invariant = __webpack_require__(2);
-	var shouldUpdateReactComponent = __webpack_require__(51);
+	var shouldUpdateReactComponent = __webpack_require__(50);
 	var warning = __webpack_require__(4);
 	
 	function getDeclarationErrorAddendum(component) {
@@ -15434,7 +15279,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 116 */
+/* 115 */
 /***/ function(module, exports) {
 
 	/**
@@ -15489,7 +15334,7 @@
 	module.exports = ReactDOMButton;
 
 /***/ },
-/* 117 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -15508,33 +15353,33 @@
 	
 	'use strict';
 	
-	var AutoFocusUtils = __webpack_require__(101);
-	var CSSPropertyOperations = __webpack_require__(103);
+	var AutoFocusUtils = __webpack_require__(100);
+	var CSSPropertyOperations = __webpack_require__(102);
 	var DOMProperty = __webpack_require__(15);
-	var DOMPropertyOperations = __webpack_require__(36);
+	var DOMPropertyOperations = __webpack_require__(35);
 	var EventConstants = __webpack_require__(11);
 	var ReactBrowserEventEmitter = __webpack_require__(25);
-	var ReactComponentBrowserEnvironment = __webpack_require__(38);
-	var ReactDOMButton = __webpack_require__(116);
-	var ReactDOMInput = __webpack_require__(119);
-	var ReactDOMOption = __webpack_require__(120);
+	var ReactComponentBrowserEnvironment = __webpack_require__(37);
+	var ReactDOMButton = __webpack_require__(115);
+	var ReactDOMInput = __webpack_require__(118);
+	var ReactDOMOption = __webpack_require__(119);
 	var ReactDOMSelect = __webpack_require__(64);
-	var ReactDOMTextarea = __webpack_require__(123);
+	var ReactDOMTextarea = __webpack_require__(122);
 	var ReactMount = __webpack_require__(6);
-	var ReactMultiChild = __webpack_require__(130);
+	var ReactMultiChild = __webpack_require__(129);
 	var ReactPerf = __webpack_require__(8);
-	var ReactUpdateQueue = __webpack_require__(41);
+	var ReactUpdateQueue = __webpack_require__(40);
 	
 	var assign = __webpack_require__(3);
 	var canDefineProperty = __webpack_require__(30);
 	var escapeTextContentForBrowser = __webpack_require__(31);
 	var invariant = __webpack_require__(2);
-	var isEventSupported = __webpack_require__(49);
+	var isEventSupported = __webpack_require__(48);
 	var keyOf = __webpack_require__(14);
 	var setInnerHTML = __webpack_require__(32);
-	var setTextContent = __webpack_require__(50);
+	var setTextContent = __webpack_require__(49);
 	var shallowEqual = __webpack_require__(89);
-	var validateDOMNesting = __webpack_require__(53);
+	var validateDOMNesting = __webpack_require__(52);
 	var warning = __webpack_require__(4);
 	
 	var deleteListener = ReactBrowserEventEmitter.deleteListener;
@@ -16457,7 +16302,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 118 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16477,7 +16322,7 @@
 	var ReactElement = __webpack_require__(7);
 	var ReactElementValidator = __webpack_require__(68);
 	
-	var mapObject = __webpack_require__(167);
+	var mapObject = __webpack_require__(166);
 	
 	/**
 	 * Create a factory that creates HTML tag elements.
@@ -16640,7 +16485,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 119 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16656,8 +16501,8 @@
 	
 	'use strict';
 	
-	var ReactDOMIDOperations = __webpack_require__(40);
-	var LinkedValueUtils = __webpack_require__(37);
+	var ReactDOMIDOperations = __webpack_require__(39);
+	var LinkedValueUtils = __webpack_require__(36);
 	var ReactMount = __webpack_require__(6);
 	var ReactUpdates = __webpack_require__(9);
 	
@@ -16799,7 +16644,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 120 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -16894,7 +16739,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 121 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -16912,7 +16757,7 @@
 	
 	var ExecutionEnvironment = __webpack_require__(5);
 	
-	var getNodeForCharacterOffset = __webpack_require__(154);
+	var getNodeForCharacterOffset = __webpack_require__(153);
 	var getTextContentAccessor = __webpack_require__(82);
 	
 	/**
@@ -17111,7 +16956,7 @@
 	module.exports = ReactDOMSelection;
 
 /***/ },
-/* 122 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17128,8 +16973,8 @@
 	'use strict';
 	
 	var ReactDefaultInjection = __webpack_require__(67);
-	var ReactServerRendering = __webpack_require__(135);
-	var ReactVersion = __webpack_require__(42);
+	var ReactServerRendering = __webpack_require__(134);
+	var ReactVersion = __webpack_require__(41);
 	
 	ReactDefaultInjection.inject();
 	
@@ -17142,7 +16987,7 @@
 	module.exports = ReactDOMServer;
 
 /***/ },
-/* 123 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -17158,8 +17003,8 @@
 	
 	'use strict';
 	
-	var LinkedValueUtils = __webpack_require__(37);
-	var ReactDOMIDOperations = __webpack_require__(40);
+	var LinkedValueUtils = __webpack_require__(36);
+	var ReactDOMIDOperations = __webpack_require__(39);
 	var ReactUpdates = __webpack_require__(9);
 	
 	var assign = __webpack_require__(3);
@@ -17261,7 +17106,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 124 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17279,11 +17124,11 @@
 	'use strict';
 	
 	var DOMProperty = __webpack_require__(15);
-	var ReactDefaultPerfAnalysis = __webpack_require__(125);
+	var ReactDefaultPerfAnalysis = __webpack_require__(124);
 	var ReactMount = __webpack_require__(6);
 	var ReactPerf = __webpack_require__(8);
 	
-	var performanceNow = __webpack_require__(170);
+	var performanceNow = __webpack_require__(169);
 	
 	function roundFloat(val) {
 	  return Math.floor(val * 100) / 100;
@@ -17503,7 +17348,7 @@
 	module.exports = ReactDefaultPerf;
 
 /***/ },
-/* 125 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17709,7 +17554,7 @@
 	module.exports = ReactDefaultPerfAnalysis;
 
 /***/ },
-/* 126 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17752,7 +17597,7 @@
 	module.exports = ReactEventEmitterMixin;
 
 /***/ },
-/* 127 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17777,8 +17622,8 @@
 	var ReactUpdates = __webpack_require__(9);
 	
 	var assign = __webpack_require__(3);
-	var getEventTarget = __webpack_require__(46);
-	var getUnboundedScrollPosition = __webpack_require__(162);
+	var getEventTarget = __webpack_require__(45);
+	var getUnboundedScrollPosition = __webpack_require__(161);
 	
 	var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
 	
@@ -17968,7 +17813,7 @@
 	module.exports = ReactEventListener;
 
 /***/ },
-/* 128 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17986,7 +17831,7 @@
 	
 	var DOMProperty = __webpack_require__(15);
 	var EventPluginHub = __webpack_require__(19);
-	var ReactComponentEnvironment = __webpack_require__(39);
+	var ReactComponentEnvironment = __webpack_require__(38);
 	var ReactClass = __webpack_require__(60);
 	var ReactEmptyComponent = __webpack_require__(69);
 	var ReactBrowserEventEmitter = __webpack_require__(25);
@@ -18011,7 +17856,7 @@
 	module.exports = ReactInjection;
 
 /***/ },
-/* 129 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18030,14 +17875,14 @@
 	var ReactChildren = __webpack_require__(59);
 	var ReactComponent = __webpack_require__(61);
 	var ReactClass = __webpack_require__(60);
-	var ReactDOMFactories = __webpack_require__(118);
+	var ReactDOMFactories = __webpack_require__(117);
 	var ReactElement = __webpack_require__(7);
 	var ReactElementValidator = __webpack_require__(68);
 	var ReactPropTypes = __webpack_require__(77);
-	var ReactVersion = __webpack_require__(42);
+	var ReactVersion = __webpack_require__(41);
 	
 	var assign = __webpack_require__(3);
-	var onlyChild = __webpack_require__(155);
+	var onlyChild = __webpack_require__(154);
 	
 	var createElement = ReactElement.createElement;
 	var createFactory = ReactElement.createFactory;
@@ -18091,7 +17936,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 130 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18108,14 +17953,14 @@
 	
 	'use strict';
 	
-	var ReactComponentEnvironment = __webpack_require__(39);
+	var ReactComponentEnvironment = __webpack_require__(38);
 	var ReactMultiChildUpdateTypes = __webpack_require__(74);
 	
 	var ReactCurrentOwner = __webpack_require__(12);
 	var ReactReconciler = __webpack_require__(16);
-	var ReactChildReconciler = __webpack_require__(114);
+	var ReactChildReconciler = __webpack_require__(113);
 	
-	var flattenChildren = __webpack_require__(152);
+	var flattenChildren = __webpack_require__(151);
 	
 	/**
 	 * Updating children of a component may trigger recursive updates. The depth is
@@ -18593,7 +18438,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 131 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18690,7 +18535,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 132 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18707,7 +18552,7 @@
 	
 	'use strict';
 	
-	var CallbackQueue = __webpack_require__(35);
+	var CallbackQueue = __webpack_require__(34);
 	var PooledClass = __webpack_require__(13);
 	var ReactBrowserEventEmitter = __webpack_require__(25);
 	var ReactDOMFeatureFlags = __webpack_require__(63);
@@ -18846,7 +18691,7 @@
 	module.exports = ReactReconcileTransaction;
 
 /***/ },
-/* 133 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -18862,7 +18707,7 @@
 	
 	'use strict';
 	
-	var ReactOwner = __webpack_require__(131);
+	var ReactOwner = __webpack_require__(130);
 	
 	var ReactRef = {};
 	
@@ -18929,7 +18774,7 @@
 	module.exports = ReactRef;
 
 /***/ },
-/* 134 */
+/* 133 */
 /***/ function(module, exports) {
 
 	/**
@@ -18957,7 +18802,7 @@
 	module.exports = ReactServerBatchingStrategy;
 
 /***/ },
-/* 135 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -18977,12 +18822,12 @@
 	var ReactElement = __webpack_require__(7);
 	var ReactInstanceHandles = __webpack_require__(18);
 	var ReactMarkupChecksum = __webpack_require__(73);
-	var ReactServerBatchingStrategy = __webpack_require__(134);
-	var ReactServerRenderingTransaction = __webpack_require__(136);
+	var ReactServerBatchingStrategy = __webpack_require__(133);
+	var ReactServerRenderingTransaction = __webpack_require__(135);
 	var ReactUpdates = __webpack_require__(9);
 	
 	var emptyObject = __webpack_require__(23);
-	var instantiateReactComponent = __webpack_require__(48);
+	var instantiateReactComponent = __webpack_require__(47);
 	var invariant = __webpack_require__(2);
 	
 	/**
@@ -19046,7 +18891,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 136 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19064,7 +18909,7 @@
 	'use strict';
 	
 	var PooledClass = __webpack_require__(13);
-	var CallbackQueue = __webpack_require__(35);
+	var CallbackQueue = __webpack_require__(34);
 	var Transaction = __webpack_require__(29);
 	
 	var assign = __webpack_require__(3);
@@ -19138,7 +18983,7 @@
 	module.exports = ReactServerRenderingTransaction;
 
 /***/ },
-/* 137 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19270,7 +19115,7 @@
 	module.exports = SVGDOMPropertyConfig;
 
 /***/ },
-/* 138 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -19476,7 +19321,7 @@
 	module.exports = SelectEventPlugin;
 
 /***/ },
-/* 139 */
+/* 138 */
 /***/ function(module, exports) {
 
 	/**
@@ -19510,7 +19355,7 @@
 	module.exports = ServerReactRootIndex;
 
 /***/ },
-/* 140 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -19530,18 +19375,18 @@
 	var EventListener = __webpack_require__(84);
 	var EventPropagators = __webpack_require__(20);
 	var ReactMount = __webpack_require__(6);
-	var SyntheticClipboardEvent = __webpack_require__(141);
+	var SyntheticClipboardEvent = __webpack_require__(140);
 	var SyntheticEvent = __webpack_require__(17);
-	var SyntheticFocusEvent = __webpack_require__(144);
-	var SyntheticKeyboardEvent = __webpack_require__(146);
+	var SyntheticFocusEvent = __webpack_require__(143);
+	var SyntheticKeyboardEvent = __webpack_require__(145);
 	var SyntheticMouseEvent = __webpack_require__(28);
-	var SyntheticDragEvent = __webpack_require__(143);
-	var SyntheticTouchEvent = __webpack_require__(147);
+	var SyntheticDragEvent = __webpack_require__(142);
+	var SyntheticTouchEvent = __webpack_require__(146);
 	var SyntheticUIEvent = __webpack_require__(22);
-	var SyntheticWheelEvent = __webpack_require__(148);
+	var SyntheticWheelEvent = __webpack_require__(147);
 	
 	var emptyFunction = __webpack_require__(10);
-	var getEventCharCode = __webpack_require__(44);
+	var getEventCharCode = __webpack_require__(43);
 	var invariant = __webpack_require__(2);
 	var keyOf = __webpack_require__(14);
 	
@@ -20103,7 +19948,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 141 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20147,7 +19992,7 @@
 	module.exports = SyntheticClipboardEvent;
 
 /***/ },
-/* 142 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20189,7 +20034,7 @@
 	module.exports = SyntheticCompositionEvent;
 
 /***/ },
-/* 143 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20231,7 +20076,7 @@
 	module.exports = SyntheticDragEvent;
 
 /***/ },
-/* 144 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20273,7 +20118,7 @@
 	module.exports = SyntheticFocusEvent;
 
 /***/ },
-/* 145 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20316,7 +20161,7 @@
 	module.exports = SyntheticInputEvent;
 
 /***/ },
-/* 146 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20335,9 +20180,9 @@
 	
 	var SyntheticUIEvent = __webpack_require__(22);
 	
-	var getEventCharCode = __webpack_require__(44);
-	var getEventKey = __webpack_require__(153);
-	var getEventModifierState = __webpack_require__(45);
+	var getEventCharCode = __webpack_require__(43);
+	var getEventKey = __webpack_require__(152);
+	var getEventModifierState = __webpack_require__(44);
 	
 	/**
 	 * @interface KeyboardEvent
@@ -20406,7 +20251,7 @@
 	module.exports = SyntheticKeyboardEvent;
 
 /***/ },
-/* 147 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20425,7 +20270,7 @@
 	
 	var SyntheticUIEvent = __webpack_require__(22);
 	
-	var getEventModifierState = __webpack_require__(45);
+	var getEventModifierState = __webpack_require__(44);
 	
 	/**
 	 * @interface TouchEvent
@@ -20457,7 +20302,7 @@
 	module.exports = SyntheticTouchEvent;
 
 /***/ },
-/* 148 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20517,7 +20362,7 @@
 	module.exports = SyntheticWheelEvent;
 
 /***/ },
-/* 149 */
+/* 148 */
 /***/ function(module, exports) {
 
 	/**
@@ -20564,7 +20409,7 @@
 	module.exports = adler32;
 
 /***/ },
-/* 150 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20624,7 +20469,7 @@
 	module.exports = dangerousStyleValue;
 
 /***/ },
-/* 151 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20678,7 +20523,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 152 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20694,7 +20539,7 @@
 	
 	'use strict';
 	
-	var traverseAllChildren = __webpack_require__(52);
+	var traverseAllChildren = __webpack_require__(51);
 	var warning = __webpack_require__(4);
 	
 	/**
@@ -20732,7 +20577,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 153 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20749,7 +20594,7 @@
 	
 	'use strict';
 	
-	var getEventCharCode = __webpack_require__(44);
+	var getEventCharCode = __webpack_require__(43);
 	
 	/**
 	 * Normalization of deprecated HTML5 `key` values
@@ -20840,7 +20685,7 @@
 	module.exports = getEventKey;
 
 /***/ },
-/* 154 */
+/* 153 */
 /***/ function(module, exports) {
 
 	/**
@@ -20918,7 +20763,7 @@
 	module.exports = getNodeForCharacterOffset;
 
 /***/ },
-/* 155 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -20957,7 +20802,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 156 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -20988,7 +20833,7 @@
 	module.exports = quoteAttributeValueForBrowser;
 
 /***/ },
-/* 157 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21009,7 +20854,7 @@
 	module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ },
-/* 158 */
+/* 157 */
 /***/ function(module, exports) {
 
 	/**
@@ -21046,7 +20891,7 @@
 	module.exports = camelize;
 
 /***/ },
-/* 159 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21063,7 +20908,7 @@
 	
 	'use strict';
 	
-	var camelize = __webpack_require__(158);
+	var camelize = __webpack_require__(157);
 	
 	var msPattern = /^-ms-/;
 	
@@ -21091,7 +20936,7 @@
 	module.exports = camelizeStyleName;
 
 /***/ },
-/* 160 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21108,7 +20953,7 @@
 	
 	'use strict';
 	
-	var toArray = __webpack_require__(171);
+	var toArray = __webpack_require__(170);
 	
 	/**
 	 * Perform a heuristic test to determine if an object is "array-like".
@@ -21181,7 +21026,7 @@
 	module.exports = createArrayFromMixed;
 
 /***/ },
-/* 161 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21202,7 +21047,7 @@
 	
 	var ExecutionEnvironment = __webpack_require__(5);
 	
-	var createArrayFromMixed = __webpack_require__(160);
+	var createArrayFromMixed = __webpack_require__(159);
 	var getMarkupWrap = __webpack_require__(88);
 	var invariant = __webpack_require__(2);
 	
@@ -21271,7 +21116,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 162 */
+/* 161 */
 /***/ function(module, exports) {
 
 	/**
@@ -21314,7 +21159,7 @@
 	module.exports = getUnboundedScrollPosition;
 
 /***/ },
-/* 163 */
+/* 162 */
 /***/ function(module, exports) {
 
 	/**
@@ -21352,7 +21197,7 @@
 	module.exports = hyphenate;
 
 /***/ },
-/* 164 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21369,7 +21214,7 @@
 	
 	'use strict';
 	
-	var hyphenate = __webpack_require__(163);
+	var hyphenate = __webpack_require__(162);
 	
 	var msPattern = /^ms-/;
 	
@@ -21396,7 +21241,7 @@
 	module.exports = hyphenateStyleName;
 
 /***/ },
-/* 165 */
+/* 164 */
 /***/ function(module, exports) {
 
 	/**
@@ -21424,7 +21269,7 @@
 	module.exports = isNode;
 
 /***/ },
-/* 166 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21441,7 +21286,7 @@
 	
 	'use strict';
 	
-	var isNode = __webpack_require__(165);
+	var isNode = __webpack_require__(164);
 	
 	/**
 	 * @param {*} object The object to check.
@@ -21454,7 +21299,7 @@
 	module.exports = isTextNode;
 
 /***/ },
-/* 167 */
+/* 166 */
 /***/ function(module, exports) {
 
 	/**
@@ -21510,7 +21355,7 @@
 	module.exports = mapObject;
 
 /***/ },
-/* 168 */
+/* 167 */
 /***/ function(module, exports) {
 
 	/**
@@ -21546,7 +21391,7 @@
 	module.exports = memoizeStringOnly;
 
 /***/ },
-/* 169 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21574,7 +21419,7 @@
 	module.exports = performance || {};
 
 /***/ },
-/* 170 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -21591,7 +21436,7 @@
 	
 	'use strict';
 	
-	var performance = __webpack_require__(169);
+	var performance = __webpack_require__(168);
 	
 	var performanceNow;
 	
@@ -21613,7 +21458,7 @@
 	module.exports = performanceNow;
 
 /***/ },
-/* 171 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -21676,7 +21521,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 172 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -21700,7 +21545,7 @@
 	  } else {
 	    var XHR2
 	    try {
-	      XHR2 = __webpack_require__(173)
+	      XHR2 = __webpack_require__(172)
 	    } catch (ex) {
 	      throw new Error('Peer dependency `xhr2` required! Please npm install xhr2')
 	    }
@@ -22312,7 +22157,7 @@
 
 
 /***/ },
-/* 173 */
+/* 172 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
