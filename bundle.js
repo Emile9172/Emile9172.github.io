@@ -11316,7 +11316,21 @@
 	          "ul",
 	          { className: "col-12 list-style-none flex flex-wrap jc-space-between p0 m0" },
 	          contributors.map(function (contributor) {
-	            if (contributor.contributions >= 10) return _react2.default.createElement(
+	            if (contributor.contributions >= 100) return _react2.default.createElement(
+	              "li",
+	              { className: "p2", key: contributor.login },
+	              _react2.default.createElement(
+	                "a",
+	                { href: contributor.html_url },
+	                _react2.default.createElement("img", { height: "48px", width: "48px", src: contributor.avatar_url, alt: contributor.login })
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                {
+	                  className: "contributionsGrand" },
+	                contributor.contributions
+	              )
+	            );else if (contributor.contributions >= 10) return _react2.default.createElement(
 	              "li",
 	              { className: "p2", key: contributor.login },
 	              _react2.default.createElement(
